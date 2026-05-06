@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="`!}Y$J%}d`R=0prPEyRk" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="OEDrfl@`s)I]!~^tgAR[">mySprite</variable><variable type="KIND_SpriteKind" id="fP?zO%,RX.JC[ea@:lEN">Player</variable><variable type="KIND_SpriteKind" id="!bOrH7x(#to-hGubW?#K">Projectile</variable><variable type="KIND_SpriteKind" id="m.W9c#:6,Ib;Cr7Ua}Ey">Food</variable><variable type="KIND_SpriteKind" id=")YbdRT,A7P|8AX]#Cbw)">Enemy</variable></variables><block type="pxt-on-start" id="`!}Y$J%}d`R=0prPEyRk" x="91" y="184"><statement name="HANDLER"><block type="variables_set" id="+.dO!u,Z#I$e2,e%Z.i1"><field name="VAR" id="OEDrfl@`s)I]!~^tgAR[">mySprite</field><value name="VALUE"><shadow type="math_number" id="eT8?S5|xYDm`NeR[HV5P"><field name="NUM">0</field></shadow><block type="spritescreate" id="jBggvWtd5BRVtE[Y_O%#"><value name="img"><shadow type="screen_image_picker" id="^?PbC^QE1`@fuWKM/hu*"><field name="img">img`
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. . f 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f 3 3 f f e e e e f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f e e e e f f f b b f 
+. f e e f b d d d d b f e e f . 
+. . e 4 c d d d d d d c 4 e . . 
+. . e f b d b d b d b b f e . . 
+. . . f f 1 d 1 d 1 d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="f_8LPEeTdJv9/A?~[bm4"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="J^;R:7tFJ#m=^cp^#|M,"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="Vh[!pJ=:dqeKLgeoVs2k"><field name="VAR" id="OEDrfl@`s)I]!~^tgAR[">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="t#RO$bU;Zxz%s9cp=-*N"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="{,V5N*,K[CQJ3t_-}XVw"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
